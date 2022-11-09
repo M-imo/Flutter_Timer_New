@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void _startTimer() {
     _counter = 10;
     /*if (_timer != null) {
-      _timer.cancel();
+      _timer.cancel(xD);
     }*/ // Lines 35 to 37 were the reason the countdown did not start earlier. This bit with code can be removed.
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       setState(() {
